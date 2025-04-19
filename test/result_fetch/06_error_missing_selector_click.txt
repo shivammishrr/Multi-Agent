@@ -1,0 +1,1 @@
+{'status': 'error', 'error': "'selector' parameter is required for this action."}

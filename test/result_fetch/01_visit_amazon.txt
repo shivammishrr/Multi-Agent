@@ -1,0 +1,1 @@
+{'status': 'success', 'url': 'https://www.amazon.com', 'action': 'visit', 'result': 'Visited https://www.amazon.com successfully.'}

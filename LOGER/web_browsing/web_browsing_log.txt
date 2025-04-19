@@ -1,0 +1,11 @@
+[2025-04-19 19:09:26.601193] [visit_amazon] Visited https://www.amazon.com and saved HTML to C:\Mlops_LLMs_GenAi\sarvagya\Sarvagya\test\..\LOGER\web_browsing\visit_amazon_e6b300c0.html
+[2025-04-19 19:09:32.792043] [extract_stackoverflow] Extracted #mainbar from https://stackoverflow.com and saved to C:\Mlops_LLMs_GenAi\sarvagya\Sarvagya\test\..\LOGER\web_browsing\extract_stackoverflow_63dd2b9e.html
+[2025-04-19 19:09:49.093139] [click_github_signin] ERROR: Could not click Sign In button on https://github.com/login: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("button[type=submit]")
+
+[2025-04-19 19:10:01.962711] [fillform_x_search] ERROR: Could not fill search box on https://x.com/explore: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("input[data-testid=searchInput]") to be visible
+
+[2025-04-19 19:10:05.162824] [screenshot_samsung] Took screenshot of https://www.samsung.com and saved to C:\Mlops_LLMs_GenAi\sarvagya\Sarvagya\test\..\LOGER\web_browsing\screenshot_samsung_cb1bf455.png

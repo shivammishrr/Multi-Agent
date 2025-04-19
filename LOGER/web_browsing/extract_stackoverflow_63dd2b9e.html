@@ -1,0 +1,1320 @@
+
+        
+
+
+
+            <div class="d-flex fw-wrap mb12">
+                    <h1 class="flex--item fl1 fs-headline1 mr12 mb12">Newest Questions</h1>
+
+
+                <div class="aside-cta flex--item ml12 mb12 print:d-none">
+                        <a href="/questions/ask" class="ws-nowrap s-btn s-btn__filled">
+        Ask Question
+    </a>
+
+                </div>
+            </div>
+
+
+        
+<script type="application/json" data-role="module-args" data-module-name="entry-points/questions/userQuestionList.mod">{"regularTagsString":"","moderatorTagsString":""}</script>
+<script defer="" src="https://cdn.sstatic.net/Js/questions/userQuestionList.en.js?v=e0424c29b0d2"></script>
+
+<div data-controller="se-uql" data-se-uql-id="" data-se-uql-sanitize-tag-query="false">
+    <div class="d-flex ai-center jc-space-between mb12 sm:fd-column sm:ai-stretch">
+            <div class="fs-body3 flex--item fl1 mr12 sm:mr0 sm:mb12">
+                24,235,537 questions
+            </div>
+            <div class="uql-nav flex--item" data-action="se-uql-list:edit-current-requested@document->se-uql#toggleEditor">
+                <div class="d-flex ai-center jc-space-between">
+                    <div class="s-btn-group flex--item mr16 ff-row-nowrap js-uql-navigation">
+                            <a class="s-btn s-btn__muted s-btn__sm is-selected js-gps-track" href="/questions?tab=Newest" aria-current="page" data-nav-value="Newest" data-gps-track="question.list.sort.clicked({ SortBy: 'Newest' })" data-shortcut="N">
+                                <span class="s-btn--text" data-text="Newest">Newest</span>
+                        </a>
+                            <a class="s-btn s-btn__muted s-btn__sm js-gps-track" href="/questions?tab=Active" data-nav-value="Active" data-gps-track="question.list.sort.clicked({ SortBy: 'Active' })" data-shortcut="A">
+                                <span class="s-btn--text" data-text="Active">Active</span>
+                        </a>
+                            <a class="s-btn s-btn__muted s-btn__sm uql-nav--expanded-item js-gps-track" href="/questions?tab=Bounties" data-nav-value="Bounties" data-gps-track="question.list.sort.clicked({ SortBy: 'Bountied' })" data-shortcut="E">
+                                <span class="s-btn--text" data-text="Bountied">Bountied</span>
+                                    <span class="s-btn--badge o100 bg-blue-500">
+                                        <span class="s-btn--number fc-white">41</span>
+                                    </span>
+                        </a>
+                            <a class="s-btn s-btn__muted s-btn__sm uql-nav--expanded-item js-gps-track" href="/questions?tab=Unanswered" data-nav-value="Unanswered" data-gps-track="question.list.sort.clicked({ SortBy: 'Unanswered' })" data-shortcut="U">
+                                <span class="s-btn--text" data-text="Unanswered">Unanswered</span>
+                        </a>
+                        <button class="s-btn s-btn__muted s-btn__sm s-btn__dropdown" type="button" data-controller="s-popover" data-action="s-popover#toggle" data-se-uql-target="toggleMoreButton" aria-haspopup="true" aria-expanded="false" aria-controls="uql-more-popover">
+                            <span class="s-btn--text" data-text="More">More</span>
+                        </button>
+                    </div>
+                
+                    <div class="s-popover z-dropdown ws2 px0 py4" id="uql-more-popover" data-se-uql-target="morePopover">
+                        <div class="s-popover--arrow"></div>
+                        <ul class="s-menu js-uql-navigation" role="menu">
+                                <li class=" uql-nav--collapsed-item" role="menuitem">
+                                        <a href="/questions?tab=Bounties" class="s-block-link s-block-link__left js-gps-track" data-shortcut="" data-gps-track="question.list.sort.clicked({ SortBy: 'Bountied' })">
+                                            Bountied
+                                                <span class="s-badge s-badge__bounty s-badge__bounty s-badge__sm lh-xs px4">41</span>
+                                        </a>
+                                </li>
+                                <li class=" uql-nav--collapsed-item" role="menuitem">
+                                        <a href="/questions?tab=Unanswered" class="s-block-link s-block-link__left js-gps-track" data-shortcut="" data-gps-track="question.list.sort.clicked({ SortBy: 'Unanswered' })">
+                                            Unanswered
+                                        </a>
+                                </li>
+                                <li role="menuitem">
+                                        <a href="/questions?tab=Frequent" class="s-block-link s-block-link__left js-gps-track" data-shortcut="F" data-gps-track="question.list.sort.clicked({ SortBy: 'Frequent' })">
+                                            Frequent
+                                        </a>
+                                </li>
+                                <li role="menuitem">
+                                        <a href="/questions?tab=Votes" class="s-block-link s-block-link__left js-gps-track" data-shortcut="V" data-gps-track="question.list.sort.clicked({ SortBy: 'Score' })">
+                                            Score
+                                        </a>
+                                </li>
+                                <li role="menuitem">
+                                        <a href="/questions?tab=Trending" class="s-block-link s-block-link__left js-gps-track" data-shortcut="H" data-gps-track="question.list.sort.clicked({ SortBy: 'Trending' })">
+                                            Trending
+                                        </a>
+                                </li>
+                                <li role="menuitem">
+                                        <a href="/questions?tab=Week" class="s-block-link s-block-link__left js-gps-track" data-shortcut="W" data-gps-track="question.list.sort.clicked({ SortBy: 'Week' })">
+                                            Week
+                                        </a>
+                                </li>
+                                <li role="menuitem">
+                                        <a href="/questions?tab=Month" class="s-block-link s-block-link__left js-gps-track" data-shortcut="M" data-gps-track="question.list.sort.clicked({ SortBy: 'Month' })">
+                                            Month
+                                        </a>
+                                </li>
+                                    <li class="s-menu--divider" role="separator"></li>
+                                <li role="menuitem">
+                                        <span class="s-block-link c-default fc-black-350 js-gps-track" data-gps-track="question.list.sort.clicked({ SortBy: 'Unanswered (my tags)' })">
+                                            Unanswered (my tags)
+                                        </span>
+                                </li>
+                        </ul>
+                    </div>
+                
+                    <div class="flex--item">
+                        <button class="s-btn s-btn__outlined s-btn__sm s-btn__icon ws-nowrap" role="button" data-controller="s-expandable-control" data-s-expandable-control-toggle-class="is-selected" data-se-uql-target="toggleFormButton" aria-expanded="false" aria-controls="uql-form">
+                            <svg aria-hidden="true" class="svg-icon iconFilter" width="18" height="18" viewBox="0 0 18 18"><path d="M2 4h14v2H2zm2 4h10v2H4zm8 4H6v2h6z"></path></svg> Filter
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <form class="s-expandable ps-relative z-active" id="uql-form" data-se-uql-target="form" data-action="se-uql#navigate">
+        <input name="uqlId" type="hidden">
+        <div class="s-expandable--content">
+            <div class="bg-black-150 ba bc-black-225 bar-sm mb16">
+                <div class="px12 py16">
+                    <div class="d-flex gs32 fw-wrap">
+                        <div class="flex--item">
+                            <fieldset class="d-flex gs8 gsy fd-column">
+                                <legend class="flex--item s-label px0">Filter by</legend>
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-checkbox d-block" type="checkbox" name="filterId" value="NoAnswers" id="5dde1ed5-5a9c-4c2d-9a39-389bcaff9a97">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="5dde1ed5-5a9c-4c2d-9a39-389bcaff9a97" id="2ccbad6c-674d-4be1-97df-40980f565ff0">No answers</label>
+            </div>
+        </div>
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-checkbox d-block" type="checkbox" name="filterId" value="NoAcceptedAnswer" id="e3f30a5b-7a28-44a1-8032-5b928ca3f045">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="e3f30a5b-7a28-44a1-8032-5b928ca3f045" id="87470b8b-45eb-48f6-b87f-6c9077eb0012">No accepted answer</label>
+            </div>
+        </div>
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-checkbox d-block" type="checkbox" name="filterId" value="NoStagingGround" id="c7bfe8f0-2da4-4429-befc-df3871277362">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="c7bfe8f0-2da4-4429-befc-df3871277362" id="0399530a-fd79-4c33-b873-5522de258ab7">No Staging Ground</label>
+            </div>
+        </div>
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-checkbox d-block" type="checkbox" name="filterId" value="Bounty" id="9ba05de2-e319-49c4-b5d4-6ca814f0ac4a">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="9ba05de2-e319-49c4-b5d4-6ca814f0ac4a" id="e8102dbe-9939-4aae-ad04-5eaf3e6c1b11">Has bounty</label>
+            </div>
+        </div>
+                                
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-number d-block w64" type="number" name="days" value="" min="1" id="8d6a1c88-154e-4251-9a7b-d0063169b2be">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="8d6a1c88-154e-4251-9a7b-d0063169b2be" id="6042deac-378e-4e6d-b782-cbe1c57ecb61">Days old</label>
+            </div>
+        </div>
+                            </fieldset>
+                        </div>
+                        <div class="flex--item">
+                            <fieldset class="d-flex gs8 gsy fd-column">
+                                <legend class="flex--item s-label px0">Sorted by</legend>
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-radio d-block" type="radio" name="sortId" value="Newest" checked="checked" id="e07fba5e-50a3-4e28-a85a-9d1915420b50">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="e07fba5e-50a3-4e28-a85a-9d1915420b50" id="c233f32d-5db1-4562-8edf-72a8c5bd2ca8">Newest</label>
+            </div>
+        </div>
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-radio d-block" type="radio" name="sortId" value="RecentActivity" id="497ecf2c-7796-4477-8c0a-52bc264ed49c">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="497ecf2c-7796-4477-8c0a-52bc264ed49c" id="af445806-f11c-4014-b8b7-32c86cd6a951">Recent activity</label>
+            </div>
+        </div>
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-radio d-block" type="radio" name="sortId" value="MostVotes" id="7018b99e-d6ba-441b-b585-21f19f4d461d">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="7018b99e-d6ba-441b-b585-21f19f4d461d" id="0e47481a-ca4c-4764-ad2a-2d61b45d18e3">Highest score</label>
+            </div>
+        </div>
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-radio d-block" type="radio" name="sortId" value="MostFrequent" id="04b1acbe-9116-424e-8974-b2a1a2c39abe">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="04b1acbe-9116-424e-8974-b2a1a2c39abe" id="4f46654c-c742-450c-8dea-2f55412d2681">Most frequent</label>
+            </div>
+        </div>
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-radio d-block" type="radio" name="sortId" value="BountyEndingSoon" id="bc02e3b3-b680-4d6e-88ae-5680302e5b3b">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="bc02e3b3-b680-4d6e-88ae-5680302e5b3b" id="37600492-7377-4d34-8615-d4e47e92d0bb">Bounty ending soon</label>
+            </div>
+        </div>
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-radio d-block" type="radio" name="sortId" value="Hot" id="99039f73-f76d-496f-8d38-85abbce59362">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="99039f73-f76d-496f-8d38-85abbce59362" id="f3cab8f2-d609-44f4-b8c0-c312e750b025">Trending</label>
+            </div>
+        </div>
+        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-radio d-block" type="radio" name="sortId" value="HotNoTime" id="0f94a03e-bcdf-4df0-bcc9-a35ae5712ccf">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="0f94a03e-bcdf-4df0-bcc9-a35ae5712ccf" id="4d28e383-a994-45ad-a9be-449d570426c7">Most activity</label>
+            </div>
+        </div>
+                            </fieldset>
+                        </div>
+                        <div class="flex--item">
+                            <fieldset class="d-flex gs8 gsy fd-column">
+                                <legend class="flex--item s-label px0">Tagged with</legend>
+                                        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-radio d-block" type="radio" name="tagModeId" value="Watched" id="614540ad-fe14-4ee2-a8f3-2f5ac82056e5">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="614540ad-fe14-4ee2-a8f3-2f5ac82056e5" id="0296ba0a-95f5-4bbe-9e2b-c14b322bc082">My watched tags</label>
+            </div>
+        </div>
+
+                                        <div class="flex--item">
+            <div class="d-flex gs4 gsx ai-center">
+                <div class="flex--item">
+                    <input class="s-radio d-block" type="radio" name="tagModeId" value="Specified" checked="checked" id="f873212a-76ba-495e-87ce-f3a7f89ae0cc">
+                </div>
+                <label class="flex--item s-label fw-normal ws-nowrap" for="f873212a-76ba-495e-87ce-f3a7f89ae0cc" id="2d8f2883-2ef8-42cd-8c75-9dbcac3d5ab5">The following tags:</label>
+            </div>
+        </div>
+
+                            </fieldset>
+                            <div class="ps-relative ml24 mt8 ws2">
+                                <input id="uql-modal-tag-input" class="w100 s-input" name="tagQuery" data-se-uql-target="tagQuery" type="text" size="60" tabindex="0" aria-labelledby="2d8f2883-2ef8-42cd-8c75-9dbcac3d5ab5" placeholder="e.g. javascript or python" value="" style="display: none;"><div class="js-tag-editor tag-editor multi-line s-input" style="padding: 0px 9.1px; box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; width: 100%;"><span></span><input type="text" autocomplete="off" tabindex="0" aria-autocomplete="list" aria-haspopup="listbox" role="combobox" aria-expanded="false" placeholder="e.g. javascript or python" aria-labelledby="2d8f2883-2ef8-42cd-8c75-9dbcac3d5ab5" class="s-input js-tageditor-replacing" style="width: 19px;"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p12 bt bc-black-225">
+                    <div class="d-flex">
+                        <div class="d-flex gs4 gsx fl1">
+                            <button class="s-btn s-btn__sm s-btn__filled flex--item js-gps-track" type="submit" data-se-uql-target="applyButton" data-gps-track="question.list.apply_filter.clicked">Apply filter</button>
+                        </div>
+                        <div class="flex--item">
+                            <button class="s-btn s-btn__sm" data-action="se-uql#cancelEditor" type="button">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+
+
+        <div id="questions" class=" flush-left">
+                            
+
+
+<div id="question-summary-79582453" class="s-post-summary    js-post-summary" data-post-id="79582453" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="2 views">
+            <span class="s-post-summary--stats-item-number">2</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582453/issue-with-wp-site-content-not-displaying" class="s-link">Issue with WP site Content not Displaying</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                my website is https://www.ichacha.ca/ and on the home page the slider/ carousel and also the content below it.
+I've tried to restore and/or go back to a previous version, but it doesn't fix the issue.
+...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-wordpress">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/wordpress" class="s-tag post-tag flex--item mt0 js-tagname-wordpress" title="show questions tagged 'wordpress'" aria-label="show questions tagged 'wordpress'" rel="tag" aria-labelledby="tag-wordpress-tooltip-container" data-tag-menu-origin="Unknown">wordpress</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/30316135/will-webb" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="30316135">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/2cc2da42a5255544faea8c02aabfe6d7?s=32&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2" alt="Will Webb's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/30316135/will-webb" class="flex--item">Will Webb</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">1</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:38:13Z" class="relativetime">1 min ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582452" class="s-post-summary    js-post-summary" data-post-id="79582452" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="2 views">
+            <span class="s-post-summary--stats-item-number">2</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582452/scipy-solve-ivp-cannot-integrate-over-a-derivative-maximum-in-friedmanns-equati" class="s-link">SciPy solve_ivp cannot integrate over a derivative maximum in Friedmann's equations</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                I would like to numerically integrate the Friedmann equations to solve for the scalefactor in various universes:
+import numpy as np
+import scipy as sp
+
+def H(t, a, om, ol, orad):
+    ok = 1 - om - ol -...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-python t-scipy t-numerical-integration">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/python" class="s-tag post-tag flex--item mt0 js-tagname-python" title="show questions tagged 'python'" aria-label="show questions tagged 'python'" rel="tag" aria-labelledby="tag-python-tooltip-container" data-tag-menu-origin="Unknown">python</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/scipy" class="s-tag post-tag flex--item mt0 js-tagname-scipy" title="show questions tagged 'scipy'" aria-label="show questions tagged 'scipy'" rel="tag" aria-labelledby="tag-scipy-tooltip-container" data-tag-menu-origin="Unknown">scipy</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/numerical-integration" class="s-tag post-tag flex--item mt0 js-tagname-numerical-integration" title="show questions tagged 'numerical-integration'" aria-label="show questions tagged 'numerical-integration'" rel="tag" aria-labelledby="tag-numerical-integration-tooltip-container" data-tag-menu-origin="Unknown">numerical-integration</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/20180687/borealis" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="20180687">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/5ceefd234e3964e7c0eec5eb913f3d6c?s=32&amp;d=identicon&amp;r=PG" alt="Borealis's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/20180687/borealis" class="flex--item">Borealis</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">101</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:37:24Z" class="relativetime">2 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582449" class="s-post-summary    js-post-summary" data-post-id="79582449" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="10 views">
+            <span class="s-post-summary--stats-item-number">10</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582449/how-to-build-c-on-windows-with-vs-code-and-run-it-on-ubuntu" class="s-link">How to build C++ on Windows with VS Code and run it on Ubuntu</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                I'm new for building C++ project in VS Code.
+I have installed gcc with mingw64 on Windows 11.
+gcc --version
+g++ --version
+gdb --version
+
+Here is the link for creating a Hello World App: https://code....
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-cçç t-windows t-visual-studio-code t-ubuntu t-gcc">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/c%2b%2b" class="s-tag post-tag flex--item mt0 js-tagname-cçç" title="show questions tagged 'c++'" aria-label="show questions tagged 'c++'" rel="tag" aria-labelledby="tag-c++-tooltip-container" data-tag-menu-origin="Unknown">c++</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/windows" class="s-tag post-tag flex--item mt0 js-tagname-windows" title="show questions tagged 'windows'" aria-label="show questions tagged 'windows'" rel="tag" aria-labelledby="tag-windows-tooltip-container" data-tag-menu-origin="Unknown">windows</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/visual-studio-code" class="s-tag post-tag flex--item mt0 js-tagname-visual-studio-code" title="show questions tagged 'visual-studio-code'" aria-label="show questions tagged 'visual-studio-code'" rel="tag" aria-labelledby="tag-visual-studio-code-tooltip-container" data-tag-menu-origin="Unknown">visual-studio-code</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/ubuntu" class="s-tag post-tag flex--item mt0 js-tagname-ubuntu" title="show questions tagged 'ubuntu'" aria-label="show questions tagged 'ubuntu'" rel="tag" aria-labelledby="tag-ubuntu-tooltip-container" data-tag-menu-origin="Unknown">ubuntu</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/gcc" class="s-tag post-tag flex--item mt0 js-tagname-gcc" title="show questions tagged 'gcc'" aria-label="show questions tagged 'gcc'" rel="tag" aria-labelledby="tag-gcc-tooltip-container" data-tag-menu-origin="Unknown">gcc</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/12200808/stackbiz" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="12200808">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/d7c46fc17be48297d8630ef076e7d780?s=32&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2" alt="stackbiz's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/12200808/stackbiz" class="flex--item">stackbiz</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">1,472</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:33:28Z" class="relativetime">6 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582447" class="s-post-summary    js-post-summary" data-post-id="79582447" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="5 views">
+            <span class="s-post-summary--stats-item-number">5</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582447/view-created-fine-before-now-fails-every-time-on-postgres-using-liquibase" class="s-link">View created fine before, now fails every time on Postgres using Liquibase</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                This is the view:
+            SELECT DISTINCT d.comic_book_id   as comic_book_id,
+                            d.comic_detail_id as comic_detail_id,
+                            d.archive_type    as ...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-java t-postgresql t-view t-migration t-liquibase">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/java" class="s-tag post-tag flex--item mt0 js-tagname-java" title="show questions tagged 'java'" aria-label="show questions tagged 'java'" rel="tag" aria-labelledby="tag-java-tooltip-container" data-tag-menu-origin="Unknown">java</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/postgresql" class="s-tag post-tag flex--item mt0 js-tagname-postgresql" title="show questions tagged 'postgresql'" aria-label="show questions tagged 'postgresql'" rel="tag" aria-labelledby="tag-postgresql-tooltip-container" data-tag-menu-origin="Unknown">postgresql</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/view" class="s-tag post-tag flex--item mt0 js-tagname-view" title="show questions tagged 'view'" aria-label="show questions tagged 'view'" rel="tag" aria-labelledby="tag-view-tooltip-container" data-tag-menu-origin="Unknown">view</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/migration" class="s-tag post-tag flex--item mt0 js-tagname-migration" title="show questions tagged 'migration'" aria-label="show questions tagged 'migration'" rel="tag" aria-labelledby="tag-migration-tooltip-container" data-tag-menu-origin="Unknown">migration</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/liquibase" class="s-tag post-tag flex--item mt0 js-tagname-liquibase" title="show questions tagged 'liquibase'" aria-label="show questions tagged 'liquibase'" rel="tag" aria-labelledby="tag-liquibase-tooltip-container" data-tag-menu-origin="Unknown">liquibase</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/407088/mcpierce" class="s-avatar s-avatar__16 s-user-card--avatar js-user-hover-target" data-user-id="407088">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/4a8632084a26acb9c096afd674ad773d?s=32&amp;d=identicon&amp;r=PG" alt="mcpierce's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/407088/mcpierce" class="flex--item">mcpierce</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">321</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:31:33Z" class="relativetime">7 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582443" class="s-post-summary    js-post-summary" data-post-id="79582443" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="6 views">
+            <span class="s-post-summary--stats-item-number">6</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582443/react-native-monorepo-flatlist-element-type-is-invalid-got-undefined-in-com" class="s-link">React Native Monorepo - FlatList “Element type is invalid: got undefined” in component render</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                I'm working on setting up a React Native monorepo and ran into the following error when rendering a component that includes a FlatList. This error happens when I try to run it directly in the main app....
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-react-native t-monorepo">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/react-native" class="s-tag post-tag flex--item mt0 js-tagname-react-native" title="show questions tagged 'react-native'" aria-label="show questions tagged 'react-native'" rel="tag" aria-labelledby="tag-react-native-tooltip-container" data-tag-menu-origin="Unknown">react-native</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/monorepo" class="s-tag post-tag flex--item mt0 js-tagname-monorepo" title="show questions tagged 'monorepo'" aria-label="show questions tagged 'monorepo'" rel="tag" aria-labelledby="tag-monorepo-tooltip-container" data-tag-menu-origin="Unknown">monorepo</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/2094521/berkay-yildiz" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="2094521">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/c00fee64f813e4be250349f655a01fbe?s=32&amp;d=identicon&amp;r=PG" alt="Berkay Yildiz's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/2094521/berkay-yildiz" class="flex--item">Berkay Yildiz</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">605</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:29:10Z" class="relativetime">10 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582442" class="s-post-summary    js-post-summary" data-post-id="79582442" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="6 views">
+            <span class="s-post-summary--stats-item-number">6</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582442/how-to-convert-dog-age-to-human-years-with-php" class="s-link">How to convert dog age to human years - With PHP</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                Here’s the PHP code for calculating a dog’s age in human years:
+&lt;?php
+function calculateDogHumanYears($dogAge, $size = 'medium') {
+    if ($dogAge &lt;= 0) {
+        return "Age must be ...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-php t-puppet t-cat t-dog">
+<a class="themed subcommunity-topic-avatar subcommunity-topic-php s-avatar s-avatar__24 mr2 js-community-tag mb2" style="" data-controller="s-tooltip" href="/collectives/php" aria-describedby="--stacks-s-tooltip-lz0d7rmm"></a><div id="--stacks-s-tooltip-lz0d7rmm" class="s-popover s-popover__tooltip" role="tooltip">PHP Collective<div class="s-popover--arrow"></div></div>
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/php" class="s-tag post-tag flex--item mt0 js-tagname-php" title="show questions tagged 'php'" aria-label="show questions tagged 'php'" rel="tag" aria-labelledby="tag-php-tooltip-container" data-tag-menu-origin="Unknown">php</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/puppet" class="s-tag post-tag flex--item mt0 js-tagname-puppet" title="show questions tagged 'puppet'" aria-label="show questions tagged 'puppet'" rel="tag" aria-labelledby="tag-puppet-tooltip-container" data-tag-menu-origin="Unknown">puppet</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/cat" class="s-tag post-tag flex--item mt0 js-tagname-cat" title="show questions tagged 'cat'" aria-label="show questions tagged 'cat'" rel="tag" aria-labelledby="tag-cat-tooltip-container" data-tag-menu-origin="Unknown">cat</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/dog" class="s-tag post-tag flex--item mt0 js-tagname-dog" title="show questions tagged 'dog'" aria-label="show questions tagged 'dog'" rel="tag" aria-labelledby="tag-dog-tooltip-container" data-tag-menu-origin="Unknown">dog</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/7088815/ahsan" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="7088815">        <div class="gravatar-wrapper-16">
+            <img src="https://i.sstatic.net/5GCO8.jpg?s=32" alt="Ahsan's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/7088815/ahsan" class="flex--item">Ahsan</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">11</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:29:01Z" class="relativetime">10 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582441" class="s-post-summary    js-post-summary" data-post-id="79582441" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="4 views">
+            <span class="s-post-summary--stats-item-number">4</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582441/how-do-associate-created-documents-with-a-user-using-passport-jwt-in-a-mern-app" class="s-link">How do associate created documents with a user using Passport JWT in a MERN app?</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                I'm building a MERN stack application where users can create travel logs. I'm using Passport JWT for authentication. When a user creates a travel log, I want it to be automatically associated with ...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-nodeûjs t-mongodb t-express t-mongoose-schema">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/node.js" class="s-tag post-tag flex--item mt0 js-tagname-nodeûjs" title="show questions tagged 'node.js'" aria-label="show questions tagged 'node.js'" rel="tag" aria-labelledby="tag-node.js-tooltip-container" data-tag-menu-origin="Unknown">node.js</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/mongodb" class="s-tag post-tag flex--item mt0 js-tagname-mongodb" title="show questions tagged 'mongodb'" aria-label="show questions tagged 'mongodb'" rel="tag" aria-labelledby="tag-mongodb-tooltip-container" data-tag-menu-origin="Unknown">mongodb</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/express" class="s-tag post-tag flex--item mt0 js-tagname-express" title="show questions tagged 'express'" aria-label="show questions tagged 'express'" rel="tag" aria-labelledby="tag-express-tooltip-container" data-tag-menu-origin="Unknown">express</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/mongoose-schema" class="s-tag post-tag flex--item mt0 js-tagname-mongoose-schema" title="show questions tagged 'mongoose-schema'" aria-label="show questions tagged 'mongoose-schema'" rel="tag" aria-labelledby="tag-mongoose-schema-tooltip-container" data-tag-menu-origin="Unknown">mongoose-schema</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/28653648/anjay-p-p" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="28653648">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/3c6c165d719004643a2a3dcba1709606?s=32&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2" alt="Anjay P.P's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/28653648/anjay-p-p" class="flex--item">Anjay P.P</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">3</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:28:51Z" class="relativetime">10 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582436" class="s-post-summary    js-post-summary" data-post-id="79582436" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of -2">
+            <span class="s-post-summary--stats-item-number">-2</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="15 views">
+            <span class="s-post-summary--stats-item-number">15</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582436/fail2ban-subnet-support" class="s-link">Fail2ban, subnet support</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                Status
+Fail2Ban becomes most important nowadays. The target now is protecting a single server from single ipaddress according matching rules. Time changes and beside dDOS there are - I call it "...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-fail2ban">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/fail2ban" class="s-tag post-tag flex--item mt0 js-tagname-fail2ban" title="show questions tagged 'fail2ban'" aria-label="show questions tagged 'fail2ban'" rel="tag" aria-labelledby="tag-fail2ban-tooltip-container" data-tag-menu-origin="Unknown">fail2ban</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/23026175/ninji" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="23026175">        <div class="gravatar-wrapper-16">
+            <img src="https://lh3.googleusercontent.com/a-/AOh14GhRrVNhq0E8ZfPFySUVfZo6XrYYqg1tP0WhXI2SjQ=k-s32" alt="ninji's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/23026175/ninji" class="flex--item">ninji</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">1</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:21:34Z" class="relativetime">17 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582435" class="s-post-summary    js-post-summary" data-post-id="79582435" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="14 views">
+            <span class="s-post-summary--stats-item-number">14</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582435/creating-a-single-string-utility-function-with-dual-behavior-in-c" class="s-link">Creating a Single String Utility Function with Dual Behavior in C++</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                I'm developing a string utility class that provides various string manipulation functions. I want users to have two options when using these functions:
+
+Create and return a new string with the ...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-cçç">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/c%2b%2b" class="s-tag post-tag flex--item mt0 js-tagname-cçç" title="show questions tagged 'c++'" aria-label="show questions tagged 'c++'" rel="tag" aria-labelledby="tag-c++-tooltip-container" data-tag-menu-origin="Unknown">c++</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/12018554/qwe-qwe" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="12018554">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/5709d7fd6813dc4c53ba5ea39023542c?s=32&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2" alt="Qwe Qwe's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/12018554/qwe-qwe" class="flex--item">Qwe Qwe</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">495</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:21:02Z" class="relativetime">18 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582430" class="s-post-summary    js-post-summary" data-post-id="79582430" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="7 views">
+            <span class="s-post-summary--stats-item-number">7</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582430/insert-image-between-before-or-after-texts-in-phaser-3" class="s-link">Insert Image between, before or after texts in phaser 3</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                I want to combine text and an image in Phaser 3 and place them inside a container. What is the most efficient way to achieve this? Ideally, the layout should adapt to the container’s width. Is there a ...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-phaser-framework">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/phaser-framework" class="s-tag post-tag flex--item mt0 js-tagname-phaser-framework" title="show questions tagged 'phaser-framework'" aria-label="show questions tagged 'phaser-framework'" rel="tag" aria-labelledby="tag-phaser-framework-tooltip-container" data-tag-menu-origin="Unknown">phaser-framework</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/3544287/newboy11" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="3544287">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/93b59996f5829f7ee34d0b6e3c8aacbb?s=32&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2" alt="Newboy11's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/3544287/newboy11" class="flex--item">Newboy11</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">3,144</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:14:05Z" class="relativetime">25 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582427" class="s-post-summary    js-post-summary" data-post-id="79582427" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="13 views">
+            <span class="s-post-summary--stats-item-number">13</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582427/fix-a-layer-orientation-within-a-symbol-in-illustrator" class="s-link">Fix a layer orientation within a symbol in Illustrator?</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                I need a symbol in Illustrator, that needs to be rotated differently for each instance. However, a part of it, just one layer, should remain fixed at the same orientation.
+I know I can achieve it by ...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-dynamic t-static t-rotation t-symbols t-adobe-illustrator">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/dynamic" class="s-tag post-tag flex--item mt0 js-tagname-dynamic" title="show questions tagged 'dynamic'" aria-label="show questions tagged 'dynamic'" rel="tag" aria-labelledby="tag-dynamic-tooltip-container" data-tag-menu-origin="Unknown">dynamic</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/static" class="s-tag post-tag flex--item mt0 js-tagname-static" title="show questions tagged 'static'" aria-label="show questions tagged 'static'" rel="tag" aria-labelledby="tag-static-tooltip-container" data-tag-menu-origin="Unknown">static</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/rotation" class="s-tag post-tag flex--item mt0 js-tagname-rotation" title="show questions tagged 'rotation'" aria-label="show questions tagged 'rotation'" rel="tag" aria-labelledby="tag-rotation-tooltip-container" data-tag-menu-origin="Unknown">rotation</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/symbols" class="s-tag post-tag flex--item mt0 js-tagname-symbols" title="show questions tagged 'symbols'" aria-label="show questions tagged 'symbols'" rel="tag" aria-labelledby="tag-symbols-tooltip-container" data-tag-menu-origin="Unknown">symbols</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/adobe-illustrator" class="s-tag post-tag flex--item mt0 js-tagname-adobe-illustrator" title="show questions tagged 'adobe-illustrator'" aria-label="show questions tagged 'adobe-illustrator'" rel="tag" aria-labelledby="tag-adobe-illustrator-tooltip-container" data-tag-menu-origin="Unknown">adobe-illustrator</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/4434464/aise" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="4434464">        <div class="gravatar-wrapper-16">
+            <img src="https://i.sstatic.net/MonMX.jpg?s=32" alt="Aise's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/4434464/aise" class="flex--item">Aise</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">173</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:07:53Z" class="relativetime">31 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582425" class="s-post-summary    js-post-summary" data-post-id="79582425" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="4 views">
+            <span class="s-post-summary--stats-item-number">4</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582425/next-js-link-component-not-navigating-reloads-home-page-instead-of-target-rout" class="s-link">Next.js Link component not navigating — reloads home page instead of target route</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                I'm using Next.js and I have a navigation component using the next/link component. When I click a link, instead of navigating to the correct route, the app just reloads the home page (/).
+However, if ...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-nextûjs t-routes">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/next.js" class="s-tag post-tag flex--item mt0 js-tagname-nextûjs" title="show questions tagged 'next.js'" aria-label="show questions tagged 'next.js'" rel="tag" aria-labelledby="tag-next.js-tooltip-container" data-tag-menu-origin="Unknown">next.js</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/routes" class="s-tag post-tag flex--item mt0 js-tagname-routes" title="show questions tagged 'routes'" aria-label="show questions tagged 'routes'" rel="tag" aria-labelledby="tag-routes-tooltip-container" data-tag-menu-origin="Unknown">routes</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/16950005/quasi" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="16950005">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/cfb69fac9e2bc492785ea462684c53fb?s=32&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2" alt="quasi's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/16950005/quasi" class="flex--item">quasi</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">1</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:06:49Z" class="relativetime">32 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582423" class="s-post-summary    js-post-summary" data-post-id="79582423" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of -2">
+            <span class="s-post-summary--stats-item-number">-2</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="10 views">
+            <span class="s-post-summary--stats-item-number">10</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582423/ecs-service-unhealthy-when-deploying-via-github-actions-but-healthy-when-deploy" class="s-link">ECS service unhealthy when deploying via GitHub Actions, but healthy when deployed manually</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                Why does my Docker image pass ECS health checks when deployed manually but show as unhealthy when pushed via GitHub Actions pipeline?
+I'm running into an issue with deploying a Dockerized image to AWS ...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-github-actions">
+<a class="themed subcommunity-topic-avatar subcommunity-topic-ci-cd s-avatar s-avatar__24 mr2 js-community-tag mb2" style="" data-controller="s-tooltip" href="/collectives/ci-cd" aria-describedby="--stacks-s-tooltip-zgt2hlvp"></a><div id="--stacks-s-tooltip-zgt2hlvp" class="s-popover s-popover__tooltip" role="tooltip">CI/CD Collective<div class="s-popover--arrow"></div></div>
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/github-actions" class="s-tag post-tag flex--item mt0 js-tagname-github-actions" title="show questions tagged 'github-actions'" aria-label="show questions tagged 'github-actions'" rel="tag" aria-labelledby="tag-github-actions-tooltip-container" data-tag-menu-origin="Unknown">github-actions</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/27668895/hamza-khan" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="27668895">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/f08b8bde2837ec17b1d88a3b8399c629?s=32&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2" alt="Hamza khan's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/27668895/hamza-khan" class="flex--item">Hamza khan</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">1</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 13:04:12Z" class="relativetime">35 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582420" class="s-post-summary    js-post-summary" data-post-id="79582420" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="14 views">
+            <span class="s-post-summary--stats-item-number">14</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582420/i-have-installed-the-nginx-in-ubuntu-container-but-still-i-cant-able-to-view-the" class="s-link">i have installed the nginx in ubuntu container but still i cant able to view the nginx web site using ec2 public ip address</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                i have created the container using ubuntu image and also installed the nginx in it.
+but when i tried to view the nginx webpage its not connecting .
+container creation CMD :
+docker run --network test1 -...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-docker">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/docker" class="s-tag post-tag flex--item mt0 js-tagname-docker" title="show questions tagged 'docker'" aria-label="show questions tagged 'docker'" rel="tag" aria-labelledby="tag-docker-tooltip-container" data-tag-menu-origin="Unknown">docker</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/30081328/mohan" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="30081328">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/f06dca7a00651d5809c6d4641ae7fcbb?s=32&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2" alt="mohan's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/30081328/mohan" class="flex--item">mohan</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">1</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 12:59:24Z" class="relativetime">40 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+                            
+
+
+<div id="question-summary-79582419" class="s-post-summary    js-post-summary" data-post-id="79582419" data-post-type-id="1">
+    <div class="s-post-summary--stats js-post-summary-stats">
+        <div class="s-post-summary--stats-item s-post-summary--stats-item__emphasized" title="Score of 0">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">votes</span>
+        </div>
+        <div class="s-post-summary--stats-item  " title="0 answers">
+            <span class="s-post-summary--stats-item-number">0</span>
+            <span class="s-post-summary--stats-item-unit">answers</span>
+        </div>
+        <div class="s-post-summary--stats-item " title="5 views">
+            <span class="s-post-summary--stats-item-number">5</span>
+            <span class="s-post-summary--stats-item-unit">views</span>
+        </div>
+
+
+
+    </div>
+    <div class="s-post-summary--content">
+
+
+        <h3 class="s-post-summary--content-title">
+            
+            <a href="/questions/79582419/does-opsdot-in-spir-v-with-packed-vector-format-require-its-two-inputs-to-be" class="s-link">Does `OpSDot` in SPIR-V with "Packed Vector Format" require its two inputs to be signed or unsigned?</a>
+        </h3>
+            <div class="s-post-summary--content-excerpt">
+                The SPIR-V specification defines an optional Packed Vector Format switch for the operations OpSDot, OpUDot, and OpSUDot. When used, the two other inputs of the op must each be 32-bit integers, which ...
+            </div>
+        <div class="s-post-summary--meta">
+            <div class="s-post-summary--meta-tags d-inline-block tags js-tags t-vulkan t-spir-v">
+
+<ul class="ml0 list-ls-none js-post-tag-list-wrapper d-inline"><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/vulkan" class="s-tag post-tag flex--item mt0 js-tagname-vulkan" title="show questions tagged 'vulkan'" aria-label="show questions tagged 'vulkan'" rel="tag" aria-labelledby="tag-vulkan-tooltip-container" data-tag-menu-origin="Unknown">vulkan</a></li><li class="d-inline mr4 js-post-tag-list-item"><a href="/questions/tagged/spir-v" class="s-tag post-tag flex--item mt0 js-tagname-spir-v" title="show questions tagged 'spir-v'" aria-label="show questions tagged 'spir-v'" rel="tag" aria-labelledby="tag-spir-v-tooltip-container" data-tag-menu-origin="Unknown">spir-v</a></li></ul>
+            </div>
+            
+
+
+<div class="s-user-card s-user-card__minimal" aria-live="polite">
+
+                <a href="/users/2422684/robamler" class="s-avatar s-avatar__16 s-user-card--avatar" data-user-id="2422684">        <div class="gravatar-wrapper-16">
+            <img src="https://www.gravatar.com/avatar/77323eaef564aa8f25e4fa0c3af79d05?s=32&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2" alt="robamler's user avatar" width="16" ,="" height="16" class="s-avatar--image">
+        </div>
+</a>
+
+    <div class="s-user-card--info">
+            <div class="s-user-card--link d-flex gs4">
+                <a href="/users/2422684/robamler" class="flex--item">robamler</a>
+            </div>
+        
+                <ul class="s-user-card--awards">
+            <li class="s-user-card--rep"><span class="todo-no-class-here" title="reputation score " dir="ltr">179</span></li>
+
+        </ul>
+
+        
+    </div>
+
+        <time class="s-user-card--time">asked <span title="2025-04-19 12:59:17Z" class="relativetime">40 mins ago</span></time>
+</div>
+
+        </div>
+       
+    </div>
+</div>
+
+        </div>
+
+        <br class="clear-both">
+<div class="s-pagination site1 themed page-sizer float-right">
+  <a href="/questions?tab=newest&amp;pagesize=15" title="Show 15 items per page" class="s-pagination--item is-selected" aria-current="true">15</a>
+  <a href="/questions?tab=newest&amp;pagesize=30" title="Show 30 items per page" class="s-pagination--item">30</a>
+  <a href="/questions?tab=newest&amp;pagesize=50" title="Show 50 items per page" class="s-pagination--item">50</a>
+  <span class="s-pagination--item s-pagination--item__clear">per page</span>
+</div>
+<div class="s-pagination site1 themed pager float-left">
+<div class="s-pagination--item is-selected" aria-current="&quot;page&quot;">1</div>
+<a class="s-pagination--item js-pagination-item" href="/questions?tab=newest&amp;page=2" rel="" title="Go to page 2">2</a>
+<a class="s-pagination--item js-pagination-item" href="/questions?tab=newest&amp;page=3" rel="" title="Go to page 3">3</a>
+<a class="s-pagination--item js-pagination-item" href="/questions?tab=newest&amp;page=4" rel="" title="Go to page 4">4</a>
+<a class="s-pagination--item js-pagination-item" href="/questions?tab=newest&amp;page=5" rel="" title="Go to page 5">5</a>
+<div class="s-pagination--item s-pagination--item__clear">…</div>
+<a class="s-pagination--item js-pagination-item" href="/questions?tab=newest&amp;page=1615703" rel="" title="Go to page 1615703">1615703</a>
+<a class="s-pagination--item js-pagination-item" href="/questions?tab=newest&amp;page=2" rel="next" title="Go to page 2"> Next</a></div>
+        

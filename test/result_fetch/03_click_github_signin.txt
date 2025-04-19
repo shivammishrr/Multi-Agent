@@ -1,0 +1,1 @@
+{'status': 'success', 'url': 'https://github.com/login', 'action': 'click', 'result': "Simulated click on 'button[type=submit]' at https://github.com/login."}

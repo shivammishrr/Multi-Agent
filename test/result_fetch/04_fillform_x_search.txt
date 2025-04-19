@@ -1,0 +1,1 @@
+{'status': 'success', 'url': 'https://x.com/explore', 'action': 'fill_form', 'result': "Simulated filling 'input[data-testid=searchInput]' with 'AI' at https://x.com/explore."}

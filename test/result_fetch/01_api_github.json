@@ -1,0 +1,1 @@
+{'status': 'success', 'source': 'api', 'data': {'request': {'url': 'https://api.github.com/repos/python/cpython', 'method': 'GET', 'headers': {'Accept': 'application/vnd.github.v3+json'}, 'query': ''}, 'response': 'Simulated GET response from https://api.github.com/repos/python/cpython'}, 'metadata': {'timestamp': '2025-04-19T12:30:00Z', 'size': 1024}}
