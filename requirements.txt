@@ -9,3 +9,7 @@ redis>=5.0.1
 docker>=7.0.0
 playwright>=1.40.0
 python-dotenv>=1.0.0
+toml
+httpx
+pytest
+aiofiles

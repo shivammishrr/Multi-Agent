@@ -1,0 +1,20 @@
+# Example settings for the application
+# Copy this file to settings.toml and fill in your actual values.
+
+[api_keys]
+# openai_api_key = "sk-..."
+# anthropic_api_key = "sk-ant-..."
+# tavily_api_key = "tvly-..."
+
+[llm]
+# default_model_provider = "openai"
+# openai_chat_model = "gpt-4-turbo"
+# anthropic_chat_model = "claude-3-opus-20240229"
+
+[database]
+# vector_store_url = "sqlite:///./mydb.db"
+# memory_db_url = "sqlite:///./memory.db"
+
+[server]
+# host = "0.0.0.0"
+# port = 8000
