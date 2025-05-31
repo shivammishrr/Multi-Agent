@@ -1,0 +1,9 @@
+langchain
+langgraph
+pydantic
+python-dotenv
+toml
+uvicorn
+fastapi
+httpx
+pytest
